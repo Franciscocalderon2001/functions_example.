@@ -40,7 +40,7 @@ while True: # continue program until user exits
         conv_unit = 'mm'
     elif(user_unit == 'mm'):
         #perform mm to in
-        conv_njmber = user_number / 25.4
+        conv_number = user_number / 25.4
         conv_unit= 'in'
     print(conv_number, conv_unit)
 
